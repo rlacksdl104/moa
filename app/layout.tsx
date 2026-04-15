@@ -12,7 +12,6 @@ const notoSansKR = Noto_Sans_KR({
 export const metadata: Metadata = {
   title: '모아 - 청년을 위한 공동구매 플랫폼',
   description: '20~30대 청년을 위한 공동구매 플랫폼. 생활용품부터 전자기기, 취미·문화 상품까지 함께 구매하고 최대 50% 할인받으세요.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

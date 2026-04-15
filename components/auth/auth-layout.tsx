@@ -1,6 +1,7 @@
 "use client"
 
 import type { ReactNode } from "react"
+import Logo from "../../public/image 8.svg"
 
 interface AuthLayoutProps {
   children: ReactNode
@@ -14,7 +15,7 @@ export function AuthLayout({ children, variant }: AuthLayoutProps) {
       <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-b from-[#3b82f6] to-[#2563eb] text-white p-12 flex-col justify-center relative overflow-hidden">
         <div className="max-w-md mx-auto">
           {/* Logo */}
-          <h1 className="text-4xl font-bold mb-6">모아</h1>
+        
           
           {variant === "login" ? (
             <>

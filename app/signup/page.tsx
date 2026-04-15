@@ -92,24 +92,6 @@ export default function SignUpPage() {
             </div>
           </div>
 
-          {/* Phone Field */}
-          <div>
-            <label className="block text-sm font-medium text-foreground mb-2">
-              휴대폰 번호
-            </label>
-            <div className="relative">
-              <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
-              <input
-                type="tel"
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                placeholder="010-1234-5678"
-                className="w-full pl-12 pr-4 py-3.5 bg-input border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-              />
-            </div>
-          </div>
-
           {/* Password Field */}
           <div>
             <label className="block text-sm font-medium text-foreground mb-2">

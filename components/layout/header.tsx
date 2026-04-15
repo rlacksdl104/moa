@@ -20,7 +20,13 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-primary">
-            모아
+                        <img
+              src="/image 8.svg"
+              alt="Logo"
+              width={32}
+              height="auto"
+              className="w-16 h-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -46,7 +52,7 @@ export function Header() {
             </Link>
             <Link
               href="/signup"
-              className="px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:bg-primary/90 transition-colors"
+              className="px-4 py-1.5 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:bg-primary/90 transition-colors"
             >
               회원가입
             </Link>
